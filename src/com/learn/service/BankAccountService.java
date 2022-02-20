@@ -34,6 +34,7 @@ public class BankAccountService implements BankAccountServiceInterface {
 	@Override
 	public List<BankAccount> showlAllBankAccounts() {
 		// TODO Auto-generated method stub
+		System.out.println("Account holders");
 		return bdao.showlAllBankAccounts();
 	}
 

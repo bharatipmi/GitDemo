@@ -40,6 +40,7 @@ public class BankAccountClient {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		System.out.println("simple Test");
 		accounts.stream().forEach(x->System.out.println(x));
 	}
 
